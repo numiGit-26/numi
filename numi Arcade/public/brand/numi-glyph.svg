@@ -1,0 +1,16 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <title>Super numi glyph</title>
+  <defs>
+    <linearGradient id="numiGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCE300"/>
+      <stop offset="55%" stop-color="#7FD15A"/>
+      <stop offset="100%" stop-color="#00AEC7"/>
+    </linearGradient>
+  </defs>
+  <!-- stylised numi 'n' hook -->
+  <path d="M44 92 L44 52 Q44 32 64 32 Q84 32 84 52 L84 92"
+        fill="none" stroke="url(#numiGrad)" stroke-width="17"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- dot -->
+  <circle cx="40" cy="86" r="9.5" fill="url(#numiGrad)"/>
+</svg>
